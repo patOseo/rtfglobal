@@ -1,0 +1,38 @@
+.has-blue-background-color {
+  background-color: #4c93c7;
+}
+.has-blue-background-color a:not(.btn) {
+  color: #e66322;
+}
+.has-blue-color {
+  color: #4c93c7;
+}
+.has-orange-background-color {
+  background-color: #e66322;
+}
+.has-orange-background-color a:not(.btn) {
+  color: #4c93c7;
+}
+.has-orange-color {
+  color: #e66322;
+}
+.has-light-gray-background-color {
+  background-color: #939292;
+}
+.has-light-gray-color {
+  color: #939292;
+}
+.has-dark-gray-background-color {
+  background-color: #60605f;
+}
+.has-dark-gray-color {
+  color: #60605f;
+}
+
+.acf-field-message .acf-label {
+  display: none;
+}
+
+.acf-field-message h3 {
+  margin: 0;
+}

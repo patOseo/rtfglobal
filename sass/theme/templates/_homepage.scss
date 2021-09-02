@@ -1,0 +1,26 @@
+.home #full-width-page-wrapper {
+	padding: 6rem 0;
+}
+
+.panel-block {
+	margin-bottom: 2rem;
+	padding: 4rem 0;
+	border: 0;
+	border-radius: 8px;
+	filter: grayscale(1);
+	box-shadow: 0 7px 20px rgba(27, 27, 26, .16);
+	background-position: center;
+	transition: .2s;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	a {
+		color: $black;
+		
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

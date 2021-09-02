@@ -1,0 +1,30 @@
+.additional-images {
+	display: block;
+	margin: 6rem 0 2rem 0;
+	text-align: center;
+}
+
+.slideshow-nav {
+	margin-top: 1rem;
+	text-align: center;
+
+	i {
+		margin: 0 2rem;
+		font-size: 4rem;
+		color: $darkgrey;
+		transition: .2s;
+
+		&:hover {
+			color: $red;
+		}
+	}
+}
+
+.embed-container {
+	display: block;
+	margin: 4rem 0;
+}
+
+.product-row {
+	margin-bottom: 2rem;
+}

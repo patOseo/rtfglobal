@@ -1,0 +1,19 @@
+body {
+	.site {
+		min-height: 100vh;
+		background: $white;
+		position: relative;
+		z-index: 1;
+	}
+	
+	-webkit-font-smoothing: antialiased;
+
+	a {
+		transition: .2s;
+	}
+
+	#page-wrapper, #single-wrapper, #index-wrapper {
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+}

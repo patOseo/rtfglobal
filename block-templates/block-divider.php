@@ -1,0 +1,1 @@
+<hr class="divider <?php the_field('color'); ?> <?php the_field('alignment'); ?>">

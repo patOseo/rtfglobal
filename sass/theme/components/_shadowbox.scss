@@ -1,0 +1,43 @@
+.shadowbox {
+    position: relative;
+    margin-bottom: 2em;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px -6px rgba(97, 96, 96, 0.25);
+    line-height: 2;
+    background: #fff;
+    transition: all 0.2s;
+
+    .card-title {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        // padding: 2rem;
+        width: 100%;
+        height: 100%;
+        display: block;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &.hover {
+    	&:hover {
+    		box-shadow: 1px 5px 20px -6px rgba(56, 155, 214, 0.64);
+    		cursor: pointer;
+            transform: scale(1.025);
+    	}
+    }
+
+    a {
+    	color: $primary;
+    	text-decoration: none;
+    }
+
+    &.narrow {
+        line-height: 1.5;
+    }
+}

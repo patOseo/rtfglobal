@@ -1,0 +1,32 @@
+hr.divider {
+	margin: 2rem 0;
+	border-width: 6px;
+	max-width: 60px;
+
+	&.red {
+		border-color: $red;
+	}
+
+
+	&.blue {
+		border-color: $blue;
+	}
+
+	&.navyblue {
+		border-color: $navyblue;
+	}
+
+	&.grey {
+		border-color: $darkgrey;
+	}
+
+	&.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&.right {
+		margin-left: auto;
+	}
+
+}

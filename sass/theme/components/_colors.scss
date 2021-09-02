@@ -1,0 +1,43 @@
+// Colors
+
+.entry-content {
+	.has-blue-background-color {
+		background-color: $secondary;
+
+		a:not(.btn) {
+			color: $primary;
+		}
+	}
+	
+	.has-blue-color {
+		color: $secondary;
+	}
+	
+	.has-orange-background-color {
+		background-color: $primary;
+
+		a:not(.btn) {
+			color: $secondary;
+		}
+	}
+	
+	.has-orange-color {
+		color: $primary;
+	}
+	
+	.has-light-grey-background-color {
+		background-color: $lightgrey;
+	}
+	
+	.has-light-grey-color {
+		color: $lightgrey;
+	}
+	
+	.has-dark-grey-background-color {
+		background-color: $darkgrey;
+	}
+	
+	.has-dark-grey-color {
+		color: $darkgrey;
+	}
+}

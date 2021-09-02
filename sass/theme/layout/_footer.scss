@@ -1,0 +1,46 @@
+#wrapper-footer {
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 0;
+	padding: 6rem 0;
+	background-image: url('/wp-content/themes/rtf/images/footer.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: $white;
+}
+
+.footer-logo {
+	margin-bottom: 2rem;
+}
+
+.footer-slogan {
+	margin-bottom: 1rem;
+	font-family: $headings-font-family;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.footer-social {
+	a {
+		color: $darkgrey;
+
+		&:hover {
+			text-decoration: none;
+			color: darken($darkgrey, 10%);
+		}
+	}
+}
+
+.footer-heading {
+	letter-spacing: 6px;
+}
+
+.office-title {
+	font-size: 1.15rem;
+}
+
+.office-address {
+	margin-bottom: 1rem;
+}

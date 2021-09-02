@@ -1,0 +1,87 @@
+.btn {
+	padding: .5rem 1.5rem;
+	font-family: $headings-font-family;
+	letter-spacing: 1px;
+
+
+	i {
+		margin-right: .5rem;
+		transform: rotate(-270deg);
+		transition: .3s ease-out;
+	}
+
+	&:hover {
+
+		i {
+			transform: rotate(0deg);
+			transition: .3s ease-out;
+		}
+	}
+}
+
+.btn-white {
+	background: $white;
+	color: $black;
+
+	&:hover {
+		background: $primary;
+		color: $white;
+	}
+}
+
+.btn-red {
+	background: $red;
+	color: $white;
+
+	&:hover {
+		background: darken($red, 10%);
+		color: $white;
+	}
+}
+
+.btn-blue {
+	background: $blue;
+	color: $white;
+
+	&:hover {
+		background: darken($blue, 10%);
+		color: $white;
+	}
+}
+
+.btn-navyblue {
+	background: $navyblue;
+	color: $white;
+
+	&:hover {
+		background: darken($navyblue, 10%);
+		color: $white;
+	}
+}
+
+.btn-grey {
+	background: $darkgrey;
+	color: $white;
+
+	&:hover {
+		background: darken($darkgrey, 10%);
+		color: $white;
+	}
+}
+
+// Call-to-action
+.call-to-action {
+	margin: 1rem 0 2rem 0;
+	
+	&.align-left {
+		text-align: left;
+	}
+
+	&.align-center {
+		text-align: center;
+	}
+
+	&.align-right {
+		text-align: right;
+	}
+}
