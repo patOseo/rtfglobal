@@ -11,7 +11,10 @@ defined( 'ABSPATH' ) || exit;
 $image = get_field('main_image');
 $additional_images = get_field('images');
 $firstimg = $additional_images[0];
-$gallerycount = count($additional_images);
+
+if($additional_images) {
+	$gallerycount = count($additional_images);
+}
 ?>
 
 <div class="col-12">
