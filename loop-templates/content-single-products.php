@@ -55,7 +55,7 @@ if($additional_images) {
 									<hr class="divider red">
 								<?php endif; ?>
 								<?php the_sub_field('description'); ?>
-									<a href="/contact-us/" class="btn btn-primary btn-md"><i class="fa fa-plus"></i> Get A Quote</a>
+									<a href="/contact-rtf/" class="btn btn-primary btn-md"><i class="fa fa-plus"></i> Get A Quote</a>
 	
 							</div>
 						</div>
