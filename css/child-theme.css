@@ -12432,7 +12432,16 @@ body {
     color: #fff;
     max-width: 600px; }
     .home .site-header .front-page-heading h1 {
-      font-size: 3rem; }
+      font-size: 2rem; }
+      @media (min-width: 768px) {
+        .home .site-header .front-page-heading h1 {
+          font-size: 3rem; } }
+  .home .site-header .open-nav {
+    -webkit-transition: .3s;
+    transition: .3s; }
+    @media (max-width: 991.98px) {
+      .home .site-header .open-nav {
+        background: rgba(0, 0, 0, 0.95); } }
   .home .site-header .home-arrow {
     position: absolute;
     bottom: 1rem;

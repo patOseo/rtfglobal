@@ -19191,6 +19191,10 @@ jQuery(function($){
 	    return false;
 	});
 
+	$('.navbar-toggler').click(function(){
+		$('#wrapper-navbar').toggleClass('open-nav');
+	});
+
 
 	// Slick Slider
 	// $('.blog-slider').slick({

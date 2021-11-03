@@ -32,7 +32,17 @@
 		max-width: 600px;
 
 		h1 {
-			font-size: 3rem;
+			font-size: 2rem;
+			@include media-breakpoint-up(md) {
+				font-size: 3rem;
+			}
+		}
+	}
+
+	.open-nav {
+		transition: .3s;
+		@include media-breakpoint-down(md) {
+			background: rgba(0,0,0, .95);
 		}
 	}
 
