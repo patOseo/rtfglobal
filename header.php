@@ -110,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<?php elseif(is_singular('post') || is_singular('products')): ?>
 
 			<?php else: ?>
-				<div class="page-heading uk-animation-slide-bottom-medium mx-auto my-auto"><h1><?php the_title(); ?></h1></div>
+				<div class="page-heading uk-animation-slide-bottom-medium mx-auto my-auto"><h1 class="h2"><?php the_title(); ?></h1></div>
 			<?php endif; ?>
 		</div>
 	</div>
