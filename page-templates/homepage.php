@@ -43,6 +43,35 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- #full-width-page-wrapper -->
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "RTF Global",
+  "url": "https://rtfglobal.com/",
+  "logo": "https://rtfglobal.com/wp-content/uploads/2021/07/rtflogo.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "905-542-2888",
+    "contactType": "customer service",
+    "areaServed": ["CA","US"]
+  },{
+    "@type": "ContactPoint",
+    "telephone": "+44 (0) 1327 577507",
+    "contactType": "customer service",
+    "areaServed": "150"
+  }],
+  "sameAs": [
+    "https://www.instagram.com/rtfglobal/",
+    "https://twitter.com/rtfglobal",
+    "https://www.facebook.com/rtfglobal",
+    "https://www.linkedin.com/company/rtfglobal/",
+    "https://www.youtube.com/c/rtfglobal",
+    "https://www.pinterest.ca/rtfglobal/",
+    "https://www.securityinformed.com/companies/rtf-global-inc.html"
+  ]
+}
+</script>
 
 
 <?php

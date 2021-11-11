@@ -35,5 +35,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- #single-wrapper -->
 
+<?php if(get_field('schema')): ?>
+	<?php the_field('schema'); ?>
+<?php endif; ?>
+
 <?php
 get_footer();
