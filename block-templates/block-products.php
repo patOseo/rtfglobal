@@ -1,5 +1,6 @@
 <?php
 
+$heading = get_field('heading');
 $customer = get_field('customer_category');
 $product_type = get_field('type_category');
 
@@ -35,7 +36,7 @@ $products = new WP_Query($args);
 				$customer_label = get_term($customer, 'customers');
 				$product_type_label = get_term($product_type, 'product_type');
 			?>
-			<h2 class="text-center">Security Products for <?php if($customer): echo $customer_label->name; endif; if($customer && $product_type): echo " and "; endif; if($product_type): echo $product_type_label->name; endif; ?></h2>
+			<?php if($heading): ?><h2 class="text-center"><?= $heading; ?></h2><?php endif; ?>
 		</div>
 	</div>
 	<div class="row row-eq-height">
