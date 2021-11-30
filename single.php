@@ -16,9 +16,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
-		<div class="row">
-
-			<main class="site-main" id="main">
+		<div class="row justify-content-center">
 
 				<?php
 				while ( have_posts() ) {
@@ -26,8 +24,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 					get_template_part( 'loop-templates/content', 'single' );
 				}
 				?>
-
-			</main><!-- #main -->
 
 		</div><!-- .row -->
 
