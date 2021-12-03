@@ -26,7 +26,7 @@ if($additional_images) {
 				<?php while(have_rows('product_sections')): the_row(); ?>
 					<?php $rowCount = count(get_field('product_sections')); ?>
 					<?php $mainimgs = get_sub_field('main_images'); ?>
-					<div class="product-row">
+					<div class="product-row mb-5">
 						<div class="row">
 							<div class="col-md-6 align-self-center">
 								<?php if(get_sub_field('static_or_slider') == 1): ?>
@@ -63,20 +63,7 @@ if($additional_images) {
 				<?php $i++; endwhile; ?>
 		<?php endif; ?>
 
-		<!-- <div class="row">
-			<div class="col-md-6 align-self-center">
-				<?php echo wp_get_attachment_image($image, 'full'); ?>
-				<?php if($gallerycount == 1): ?>
-					<?php echo wp_get_attachment_image($additional_images[0], 'full'); ?>
-				<?php endif; ?>
-			</div>
-			<div class="col-md-6 align-self-center">
-				<h1><?php the_title(); ?></h1>
-				<hr class="divider red">
-				<?php the_field('description'); ?>
-				<a href="/contact-us/" class="btn btn-primary btn-md"><i class="fa fa-plus"></i> Get A Quote</a>
-			</div>
-		</div> -->
+		<?php the_content(); ?>
 
 		<?php if(get_field('add_video')): ?>
 			<?php if(get_field('video_link')): ?>
