@@ -49,7 +49,7 @@ $logo = get_field('logo', 'option');
 						<div class="row">
 							<?php while(have_rows('offices', 'option')): the_row(); ?>
 								<div class="col-md-6">
-									<p class="office-title"><strong><?php the_sub_field('title'); ?></strong></p>
+									<?php if(get_sub_field('office_page')): echo '<a href="' . get_sub_field('office_page') . '">'; endif; ?><p class="office-title"><strong><?php the_sub_field('title'); ?></strong></p><?php if(get_sub_field('office_page')): echo '</a>'; endif; ?>
 									<div class="office-address"><?php the_sub_field('address'); ?></div>
 									<p class="office-phone"><a href="tel:<?php the_sub_field('phone_number'); ?>"><?php the_sub_field('phone_number'); ?></a></p>
 								</div>
