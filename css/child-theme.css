@@ -12431,7 +12431,8 @@ body {
     padding-top: 6rem;
     padding-bottom: 6rem; }
 
-.home .site-header > figure {
+.home .site-header > figure,
+.page-template-homepage-uk .site-header > figure {
   -webkit-animation: imageAnimation 12s linear infinite 0s;
           animation: imageAnimation 12s linear infinite 0s;
   -webkit-backface-visibility: hidden;
@@ -12446,34 +12447,42 @@ body {
   top: 0px;
   width: 100%;
   z-index: 0; }
-  .home .site-header > figure:nth-child(2) {
+  .home .site-header > figure:nth-child(2),
+  .page-template-homepage-uk .site-header > figure:nth-child(2) {
     -webkit-animation-delay: 3s;
             animation-delay: 3s; }
-  .home .site-header > figure:nth-child(3) {
+  .home .site-header > figure:nth-child(3),
+  .page-template-homepage-uk .site-header > figure:nth-child(3) {
     -webkit-animation-delay: 6s;
             animation-delay: 6s; }
 
-.home .site-header {
+.home .site-header,
+.page-template-homepage-uk .site-header {
   min-height: 80vh;
   background-image: initial; }
-  .home .site-header .front-page-heading {
+  .home .site-header .front-page-heading,
+  .page-template-homepage-uk .site-header .front-page-heading {
     position: absolute;
     bottom: 4rem;
     color: #fff;
     max-width: 600px; }
-    .home .site-header .front-page-heading h1 {
+    .home .site-header .front-page-heading h1,
+    .page-template-homepage-uk .site-header .front-page-heading h1 {
       font-size: 2rem; }
       @media (min-width: 768px) {
-        .home .site-header .front-page-heading h1 {
+        .home .site-header .front-page-heading h1,
+        .page-template-homepage-uk .site-header .front-page-heading h1 {
           font-size: 3rem; } }
-  .home .site-header .home-arrow {
+  .home .site-header .home-arrow,
+  .page-template-homepage-uk .site-header .home-arrow {
     position: absolute;
     bottom: 1rem;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     text-align: center; }
-    .home .site-header .home-arrow i.fa-chevron-down {
+    .home .site-header .home-arrow i.fa-chevron-down,
+    .page-template-homepage-uk .site-header .home-arrow i.fa-chevron-down {
       font-size: 2rem;
       color: #fff;
       -webkit-animation: pulse 500ms alternate infinite ease-in;
@@ -12970,5 +12979,8 @@ hr.divider {
 
 .products-list a {
   color: #60605f; }
+
+.card {
+  padding: 2rem; }
 
 /*# sourceMappingURL=child-theme.css.map */

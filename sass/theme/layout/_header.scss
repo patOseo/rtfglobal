@@ -1,4 +1,5 @@
-.home .site-header > figure {
+.home .site-header > figure,
+.page-template-homepage-uk .site-header > figure {
 	animation: imageAnimation 12s linear infinite 0s;
   	backface-visibility: hidden;
   	background-size: cover;
@@ -21,7 +22,8 @@
   	}
 }
 
-.home .site-header {
+.home .site-header,
+.page-template-homepage-uk .site-header {
 	min-height: 80vh;
 	background-image: initial;
 

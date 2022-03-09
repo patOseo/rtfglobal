@@ -47,8 +47,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="site" id="page">
 
 	<div class="site-header">
-		<?php if(is_front_page()): ?>
-			<?php while(have_rows('background_images', 6)): the_row(); ?>
+		<?php if(is_front_page() || is_page_template('page-templates/homepage-uk.php')): ?>
+			<?php while(have_rows('background_images')): the_row(); ?>
 				<figure style="background-image: url('<?php the_sub_field('image'); ?>');"></figure>
 			<?php endwhile; ?>
 		<?php endif; ?>
@@ -102,8 +102,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div><!-- #wrapper-navbar end -->
 
 		<div class="container">
-			<?php if(is_front_page()): ?>
-				<div class="front-page-heading uk-animation-slide-bottom-medium"><h1><?php the_field('slogan', 'option'); ?></h1></div>
+			<?php if(is_front_page() || is_page_template('page-templates/homepage-uk.php')): ?>
+				<div class="front-page-heading uk-animation-slide-bottom-medium"><h1><?php if(is_page_template('page-templates/homepage-uk.php')) { the_field('headline'); } else { the_field('slogan', 'option'); } ?></h1></div>
 				<div class="home-arrow mx-auto"><a href="#products"><i class="fa fa-chevron-down"></i></a></div>
 			<?php elseif(is_home()): ?>
 				<div class="page-heading uk-animation-slide-bottom-medium mx-auto my-auto"><h1>Our Blog</h1></div>

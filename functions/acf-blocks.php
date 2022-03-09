@@ -103,6 +103,17 @@ function acf_custom_blocks() {
 			'icon'				=> 'smartphone',
 			'keywords'			=> array( 'product', 'single' ),
 		));
+
+		// Panel block
+		acf_register_block(array(
+			'name'				=> 'panel',
+			'title'				=> __('Panel'),
+			'description'		=> __('A custom block for a panel.'),
+			'render_template'	=> 'block-templates/block-panel.php',
+			'category'			=> 'acf-blocks',
+			'icon'				=> 'tablet',
+			'keywords'			=> array( 'panel' ),
+		));
 	}
 }
 
