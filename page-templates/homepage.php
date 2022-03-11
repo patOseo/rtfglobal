@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php if(have_rows('panel_blocks')): ?>
 					<?php while(have_rows('panel_blocks')): the_row(); ?>
 						<div class="panel-block-container">
-							<div class="card panel-block" style="background: linear-gradient(rgb(255 255 255 / 80%),rgb(255 255 255 / 80%)), url('<?php the_sub_field('background_image'); ?>') no-repeat center center; background-size:cover;">
+							<div class="panel-block" style="background: linear-gradient(rgb(255 255 255 / 80%),rgb(255 255 255 / 80%)), url('<?php the_sub_field('background_image'); ?>') no-repeat center center; background-size:cover;">
 								<a href="<?php the_sub_field('link'); ?>" class="stretched-link"><h3 class="h4 text-center"><?php the_sub_field('title'); ?></h3></a>
 							</div>
 						</div>
