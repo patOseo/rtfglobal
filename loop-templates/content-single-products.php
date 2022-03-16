@@ -20,7 +20,7 @@ if($additional_images) {
 <div class="col-12">
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 		
-		<?php if(get_field('hide_h1' == 1)): ?>
+		<?php if(get_field('hide_h1') == 1)): ?>
 			<h1><?php the_title(); ?></h1>
 			<hr class="divider red">
 		<?php endif; ?>
