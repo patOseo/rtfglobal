@@ -20,6 +20,9 @@ if($additional_images) {
 <div class="col-12">
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 		
+		<?php if(get_field('hide_h1' == 1)): ?>
+			<h1><?php the_title(); ?></h1>
+		<?php endif; ?>
 		<?php if(get_field('intro_content')): ?>
 			<?php the_field('intro_content'); ?>
 		<?php endif; ?>
@@ -53,7 +56,7 @@ if($additional_images) {
 								<?php endif; ?>
 							</div>
 							<div class="col-md-6 align-self-center">
-								<?php if($i == 1 || get_field('hide_h1') != 1): ?>
+								<?php if($i == 1 && get_field('hide_h1') != 1): ?>
 									<h1><?php the_title(); ?></h1>
 									<hr class="divider red">
 								<?php endif; ?>
