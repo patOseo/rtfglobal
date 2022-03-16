@@ -19,7 +19,10 @@ if($additional_images) {
 
 <div class="col-12">
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-	
+		
+		<?php if(get_field('intro_content')): ?>
+			<?php the_field('intro_content'); ?>
+		<?php endif; ?>
 
 		<?php if(have_rows('product_sections')): ?>
 				<?php $i = 1; ?>
