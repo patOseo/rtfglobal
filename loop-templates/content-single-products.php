@@ -22,6 +22,7 @@ if($additional_images) {
 		
 		<?php if(get_field('hide_h1' == 1)): ?>
 			<h1><?php the_title(); ?></h1>
+			<hr class="divider red">
 		<?php endif; ?>
 		<?php if(get_field('intro_content')): ?>
 			<?php the_field('intro_content'); ?>
