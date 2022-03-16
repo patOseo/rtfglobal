@@ -53,7 +53,7 @@ if($additional_images) {
 								<?php endif; ?>
 							</div>
 							<div class="col-md-6 align-self-center">
-								<?php if($i == 1): ?>
+								<?php if($i == 1 || get_field('hide_h1') != 1): ?>
 									<h1><?php the_title(); ?></h1>
 									<hr class="divider red">
 								<?php endif; ?>
