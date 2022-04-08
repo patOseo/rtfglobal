@@ -5,7 +5,7 @@
 				<div class="h1"><?php the_field('newsletter_header', 'option'); ?></div>
 			</div>
 			<div class="col-12">
-				<?php echo do_shortcode('[gravityform id="4" title="false" description="false" ajax="true"]'); ?>
+				<?php echo do_shortcode('[gravityform id="3" title="false" description="false"]'); ?>
 			</div>
 		</div>
 	</div>

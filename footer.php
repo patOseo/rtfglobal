@@ -14,7 +14,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 $logo = get_field('logo', 'option');
 ?>
 
-<?php get_template_part('global-templates/newsletter'); ?>
+<?php if(!is_page(1495)): ?>
+	<?php get_template_part('global-templates/newsletter'); ?>
+<?php endif; ?>
 
 </div><!-- #page we need this extra closing tag here -->
 
