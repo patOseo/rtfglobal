@@ -58,7 +58,7 @@ if($show_all == 1) {
 			<div id="filterContainer" class="text-center">
 			<button class="btn btn-secondary btn-sm mb-1 all active" onclick="filterSelection('all')">All</button>
 			<?php foreach($customer_categories as $customer_category): ?>
-				<button class="btn btn-secondary btn-sm mb-1" onclick="filterSelection('<?php echo $customer_category->slug; ?>')"><?php echo $customer_category->name; ?></button>
+				<button class="btn btn-secondary btn-sm mb-1" onclick="filterSelection('<?php echo $customer_category->slug; ?>')">For <?php echo $customer_category->name; ?></button>
 			<?php endforeach; ?>
 			<?php foreach($type_categories as $type_category): ?>
 				<button class="btn btn-secondary btn-sm mb-1" onclick="filterSelection('<?php echo $type_category->slug; ?>')"><?php echo $type_category->name; ?></button>
