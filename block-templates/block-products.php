@@ -29,7 +29,8 @@ $args_all = array(
 	'post_type' => 'products',
 	'post_status' => 'publish',
 	'order' => 'ASC',
-	'orderby' => 'title'
+	'orderby' => 'title',
+	'posts_per_page' => -1
 );
 
 if($show_all == 1) {
