@@ -12,3 +12,17 @@
 		color: $darkgrey;
 	}
 }
+
+#filterContainer {
+	.btn {
+		border: 0;
+	}
+	.active {
+		background: $primary;
+		outline: 0;
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+}

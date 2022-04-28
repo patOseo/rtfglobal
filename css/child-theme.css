@@ -12988,6 +12988,16 @@ hr.divider {
 .products-list a {
   color: #60605f; }
 
+#filterContainer .btn {
+  border: 0; }
+
+#filterContainer .active {
+  background: #d90416;
+  outline: 0; }
+  #filterContainer .active:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
 .card {
   padding: 2rem; }
 
