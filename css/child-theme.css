@@ -12683,6 +12683,10 @@ body {
 .product-row {
   margin-bottom: 2rem; }
 
+.btn {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold; }
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(0.9);
@@ -12761,7 +12765,8 @@ body {
 
 .btn {
   padding: .5rem 1.5rem;
-  font-family: "Effra", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
   letter-spacing: 1px; }
   .btn i {
     margin-right: .5rem;
@@ -12989,7 +12994,9 @@ hr.divider {
   color: #60605f; }
 
 #filterContainer .btn {
-  border: 0; }
+  border: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold; }
 
 #filterContainer .active {
   background: #d90416;

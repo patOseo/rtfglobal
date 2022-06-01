@@ -16,6 +16,8 @@
 #filterContainer {
 	.btn {
 		border: 0;
+		font-family: $font-family-base;
+		font-weight: bold;
 	}
 	.active {
 		background: $primary;
