@@ -89,11 +89,14 @@ if($show_all == 1) {
 				}
 
 			?>
-			<?php $mainimg = get_field('main_image', get_the_ID()); ?>
+			<?php 
+			$mainimg = get_field('main_image', get_the_ID()); 
+			$name = get_field('product_name', get_the_ID());
+			?>
 			<div class="col-md-4 filter-product-card all <?php if($the_customer_cats) { echo $the_customer_cats; } echo " "; if($the_type_cats) { echo $the_type_cats; } ?>">
 				<div class="shadowbox hover text-center">
 					<?php echo wp_get_attachment_image($mainimg, 'blog-thumb'); ?>
-					<a href="<?php the_permalink(); ?>" class="stretched-link"><h2><?php the_title(); ?></h2></a>
+					<a href="<?php the_permalink(); ?>" class="stretched-link"><h2><?php if($name) { echo $name; } else { the_title(); } ?></h2></a>
 					<button class="btn btn-md btn-primary">Learn More</button>
 				</div>
 			</div>
