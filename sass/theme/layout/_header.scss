@@ -1,5 +1,6 @@
 .home .site-header > figure,
-.page-template-homepage-uk .site-header > figure {
+.page-template-homepage-uk .site-header > figure,
+.page-template-page-with-header-slider .site-header > figure {
 	animation: imageAnimation 12s linear infinite 0s;
   	backface-visibility: hidden;
   	background-size: cover;
@@ -62,7 +63,8 @@
 	min-height: 80vh;
 }
 
-.page-template-homepage-uk .site-header {
+.page-template-homepage-uk .site-header,
+.page-template-page-with-header-slider .site-header {
 	min-height: 50vh;
 }
 

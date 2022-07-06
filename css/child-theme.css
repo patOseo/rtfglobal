@@ -12432,7 +12432,8 @@ body {
     padding-bottom: 6rem; }
 
 .home .site-header > figure,
-.page-template-homepage-uk .site-header > figure {
+.page-template-homepage-uk .site-header > figure,
+.page-template-page-with-header-slider .site-header > figure {
   -webkit-animation: imageAnimation 12s linear infinite 0s;
           animation: imageAnimation 12s linear infinite 0s;
   -webkit-backface-visibility: hidden;
@@ -12448,11 +12449,13 @@ body {
   width: 100%;
   z-index: 0; }
   .home .site-header > figure:nth-child(2),
-  .page-template-homepage-uk .site-header > figure:nth-child(2) {
+  .page-template-homepage-uk .site-header > figure:nth-child(2),
+  .page-template-page-with-header-slider .site-header > figure:nth-child(2) {
     -webkit-animation-delay: 3s;
             animation-delay: 3s; }
   .home .site-header > figure:nth-child(3),
-  .page-template-homepage-uk .site-header > figure:nth-child(3) {
+  .page-template-homepage-uk .site-header > figure:nth-child(3),
+  .page-template-page-with-header-slider .site-header > figure:nth-child(3) {
     -webkit-animation-delay: 6s;
             animation-delay: 6s; }
 
@@ -12497,7 +12500,8 @@ body {
 .home .site-header {
   min-height: 80vh; }
 
-.page-template-homepage-uk .site-header {
+.page-template-homepage-uk .site-header,
+.page-template-page-with-header-slider .site-header {
   min-height: 50vh; }
 
 .site-header {
