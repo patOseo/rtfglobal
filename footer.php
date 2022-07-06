@@ -10,11 +10,14 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
+$page_id = get_queried_object_id();
+
 $container = get_theme_mod( 'understrap_container_type' );
 $logo = get_field('logo', 'option');
+
 ?>
 
-<?php if(!is_page(1495) && !is_page(1896)): ?>
+<?php if(!is_page(1495) && !is_page(1896) && get_field('footer_contact_form') != 1): ?>
 	<?php get_template_part('global-templates/newsletter'); ?>
 <?php endif; ?>
 
