@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div><!-- #wrapper-navbar end -->
 
 		<div class="container">
-			<?php if(is_front_page() || is_page_template('page-templates/homepage-uk.php')): ?>
+			<?php if(is_front_page() || is_page_template('page-templates/page-with-header-slider.php') || is_page_template('page-templates/homepage-uk.php')): ?>
 				<div class="front-page-heading uk-animation-slide-bottom-medium"><h1><?php if(is_page_template('page-templates/homepage-uk.php')) { the_field('headline'); } else { the_field('slogan', 'option'); } ?></h1></div>
 				<div class="home-arrow mx-auto"><a href="#products"><i class="fa fa-chevron-down"></i></a></div>
 			<?php elseif(is_home()): ?>
