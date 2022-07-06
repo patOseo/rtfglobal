@@ -12457,24 +12457,29 @@ body {
             animation-delay: 6s; }
 
 .home .site-header,
-.page-template-homepage-uk .site-header {
+.page-template-homepage-uk .site-header,
+.page-template-page-with-header-slider .site-header {
   min-height: 80vh;
   background-image: initial; }
   .home .site-header .front-page-heading,
-  .page-template-homepage-uk .site-header .front-page-heading {
+  .page-template-homepage-uk .site-header .front-page-heading,
+  .page-template-page-with-header-slider .site-header .front-page-heading {
     position: absolute;
     bottom: 4rem;
     color: #fff;
     max-width: 600px; }
     .home .site-header .front-page-heading h1,
-    .page-template-homepage-uk .site-header .front-page-heading h1 {
+    .page-template-homepage-uk .site-header .front-page-heading h1,
+    .page-template-page-with-header-slider .site-header .front-page-heading h1 {
       font-size: 2rem; }
       @media (min-width: 768px) {
         .home .site-header .front-page-heading h1,
-        .page-template-homepage-uk .site-header .front-page-heading h1 {
+        .page-template-homepage-uk .site-header .front-page-heading h1,
+        .page-template-page-with-header-slider .site-header .front-page-heading h1 {
           font-size: 3rem; } }
   .home .site-header .home-arrow,
-  .page-template-homepage-uk .site-header .home-arrow {
+  .page-template-homepage-uk .site-header .home-arrow,
+  .page-template-page-with-header-slider .site-header .home-arrow {
     position: absolute;
     bottom: 1rem;
     left: 50%;
@@ -12482,7 +12487,8 @@ body {
             transform: translateX(-50%);
     text-align: center; }
     .home .site-header .home-arrow i.fa-chevron-down,
-    .page-template-homepage-uk .site-header .home-arrow i.fa-chevron-down {
+    .page-template-homepage-uk .site-header .home-arrow i.fa-chevron-down,
+    .page-template-page-with-header-slider .site-header .home-arrow i.fa-chevron-down {
       font-size: 2rem;
       color: #fff;
       -webkit-animation: pulse 500ms alternate infinite ease-in;
